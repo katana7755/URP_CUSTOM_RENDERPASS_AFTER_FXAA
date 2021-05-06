@@ -87,6 +87,9 @@ namespace UnityEngine.Rendering.Universal
         /// Executes a <c>ScriptableRenderPass</c> after rendering all effects.
         /// </summary>
         AfterRendering = 1000,
+
+        // [UTK] After FXAA
+        AfterFXAA = AfterRendering + 2,
     }
 
     /// <summary>
